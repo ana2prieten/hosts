@@ -6,6 +6,7 @@ if [[ $# -ne 1 ]]; then
 fi
 
 FILE=$1
+echo "Script verificat de ana2prieten"
 
 if [[ ! -f $FILE ]]; then
     echo "Eroare: fisierul '$FILE' nu exista" >&2
